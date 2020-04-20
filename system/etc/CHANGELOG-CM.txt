@@ -1,0 +1,54 @@
+**********************************************************************
+<b>By Ibrahim Fathelbab</b>
+Social Contact : fb.com/ifathelbab
+Email : akbon19@gmail.com
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.1 (Build 2017-10-14) :</b>
+-The brightness of the screen does not change(FIXED)
+-Backlighting works when the screen is locked(FIXED)
+-The backlight works when the screen is off during a call(FIXED)
+-Green camera(FIXED)
+-Camera focus(FIXED)
+-Video recording(FIXED, secondary solution with CamU 3rd party app)
+-Low icon signal(FIXED)
+-widget not working after restart(FIXED)
+-Swapped SIM cards(FIXED)
+*All languages have been added
+*USB Connected to PC
+*More Smooth And Stable...
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.2 (Build 2017-10-19):</b>
+-Offline charging does not work(FIXED)
+-Green front camera(FIXED)
+-YouTube(FIXED useing [nodpi] Version)
+*OMS support for substratum theme engine
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.3 (Build 2017-10-19):</b>
+-some FC(FIXED)
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.4 (Build 2017-10-26):</b>
+-Stock video player(FIXED)
+*Video recording but Saving video fails
+*Added pixel 2 Launcher
+*Added CDMA to GSM Patch
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.5 (Build 2017-11-02):</b>
+-sms sand Fc(FIXED)
+-some LAG(FIXED)
+-no 3rd camera apps working(FIXED)
+-can't add new Contacts(FIXED)
+-Drak camera(FIXED)
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.6 (Build 2017-11-04):</b>
+-Headset (Fixed useing SoundAbout 3rd party app)
+*substratum Fully working fine
+**********************************************************************
+<b>lineage OS 14.1 Changelog v0.7 (Build 2017-11-09):</b>
+-Video recording Fully(FIXED)
+-some lag(FIXED)
+**********************************************************************
+<b>lineage OS 14.1 Bugs :</b>
+-Bluetooth Headset (no play music)
+-Video recording
+-Google Play (my apps tab) FC
+**********************************************************************

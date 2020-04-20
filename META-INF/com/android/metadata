@@ -1,0 +1,5 @@
+ota-required-cache=0
+ota-type=FILE
+post-build=Homtom/lineage_HT16/HT16:7.1.2/NJH47F/a9ae3a28c1:userdebug/test-keys
+post-timestamp=1507995655
+pre-device=HT16

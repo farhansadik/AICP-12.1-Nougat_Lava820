@@ -1,0 +1,365 @@
+====================
+     04-09-2017
+====================
+
+
+   * build/
+a4c1d2f kernel: Include openssl headers and dylibs on darwin
+
+   * packages/apps/Snap/
+f262e1a Snap: CaptureModule: set switcher index on resume
+0540403 Snap: CaptureUI: fix ModuleSwitcher being invisible
+
+   * packages/services/Telephony/
+55036c2 telephony: fix crash when missing simcard
+a6ada82 VoicemailSettingsActivity: Fix NPE
+
+   * vendor/cmsdk/
+9568c30 PerformanceManager: Don't force powersave mode with powersave profile
+
+====================
+     04-08-2017
+====================
+
+
+   * frameworks/av/
+6c61c6d Revert "Revert "mediacodec: minijail: Enable exporting of policy files""
+
+   * frameworks/base/
+903118f PowerManager: Bring back the compatibility with AOSP
+
+   * frameworks/native/
+ffe84e7 sensorservice: Register orientation sensor if HAL doesn't provide it
+
+====================
+     04-07-2017
+====================
+
+
+   * packages/apps/CarrierConfig/
+8821cae Consider Q-TELECOM Greece as non-roaming
+
+   * packages/apps/Gallery2/
+54654ae Fix spelling error
+
+   * vendor/aicp/
+c8c6983 build: Update smali and baksmali to 2.2.0
+bd9f06a Update lettuce maintainer
+
+====================
+     04-06-2017
+====================
+
+
+   * packages/apps/Settings/
+ac31885 Settings: Enable advanced power menu by default
+
+====================
+     04-05-2017
+====================
+
+
+   * build/kati/
+59311e2 Merge remote-tracking branch 'aosp/master' into n7.1
+
+   * build/soong/
+f3d98fb Merge "Pass exportedFlags directly to Make"
+5853940 Pass exportedFlags directly to Make
+13fd3ff Export JAVAC_WRAPPER environment.
+bb5e5fb Merge changes Id38ce60b,I7c24c39b
+d8f8d07 Disable .toc generation for windows
+3edeee1 Add ctx.Windows()
+
+   * frameworks/av/
+5069ce8 Merge "OMXNodeInstance: sanity check portIndex." into n7.1
+
+   * frameworks/base/
+47a8ccd Base: Reduce back to kill time
+2404dcc Merge "Fix NPE while performing NetworkStatsService.removeUidsLocked()" into n7.1
+373c87d Merge "Fix potential NULL dereference errors." into n7.1
+b793305 Merge "Frameworks/base: Fix old code in MediaPlayer" into n7.1
+
+   * frameworks/native/
+8b6f838 Merge "Fix race in AppOpsManager client library" into n7.1
+46f38f6 Merge "Fix log function for potential overflow" into n7.1
+1f0b3ef Merge "Benign unsigned integer overflow in Parcel" into n7.1
+4c06a93 Merge "Fix error BufferQueue attaching flow." into n7.1
+
+   * packages/apps/Bluetooth/
+cca216e Revert "Bluetooth: handle opening incoming APK files"
+
+   * prebuilts/build-tools/
+2ee52f9 Merge remote-tracking branch 'aosp/master' into HEAD
+
+   * vendor/aicp/
+3a86810 shamu: update fingerprint to N6F26Y
+
+====================
+     04-04-2017
+====================
+
+
+   * build/soong/
+866810d Exclude ndk stubs from notice file list
+ac01ff5 Add support for an armv8 variant for Kryo
+ae4fc18 Add support for an armv7 variant for Kryo
+1889d01 Merge "multiproduct_kati: better directory names." am: a41a5da52a
+a41a5da Merge "multiproduct_kati: better directory names."
+d3c86d2 Merge "Microfactory support for transitive link dependencies" am: 12bd6fef8a
+12bd6fe Merge "Microfactory support for transitive link dependencies"
+
+   * frameworks/base/
+e254c88 Merge "Revert "Wired headset: make ringtone audio focus customizable [1/3]"" into n7.1
+4d6bb57 Revert "Wired headset: make ringtone audio focus customizable [1/3]"
+
+   * hardware/qcom/media-caf/msm8960/
+f462f4d mm-video-v4l2: vdec: add safety checks for freeing buffers
+b040ed5 mm-video-v4l2: venc: add safety checks for freeing buffers
+
+   * hardware/ti/omap4/
+86ea9e8 omap4: add more common build properties
+368f365 omap4: define BOARD_CANT_REALLOCATE_OMX_BUFFERS
+cce4d95 omap4: camera: restore compatibility with older Android versions (< Android N)
+0254e40 omap4: define TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES
+7839bd6 camera: Use GBAllocator.allocate for N_MR1.
+3c75dc7 Revert "camera: switch to Gralloc.allocate and generate unique Id for allocation"
+c9d954d camera: Rename version_major/minor to the new, non-deprecated names.
+0f2b557 camera: clean up build when various OMAP_ENHANCEMENTs are disabled
+9cf111b Revert "hwc: publicly define omap specific usage flags"
+9a75172 seccomp: allow clock_nanosleep syscall
+3a17e59 Fix camera video recording on N.
+547e464 android-api: Add N_MR1 defines.
+c7d8882 camera: fix build for LP
+9843c81 android-api: Add LP_MR1 defines.
+ef46c42 Add DOMX syscalls to seccomp filter
+6c31b84 domx: Remove implicit libc shared library declarations.
+6fc761d domx: Overhaul omx_proxy_component makefile.
+0efd58f domx: for ion_alloc alloc flag must be (1 << ID) and not the ID
+3088f9e camera: for carveout alloc we must use ID OMAP_ION_HEAP_SECURE_INPUT
+16aca2a android-api: add N
+38636fa camera: fix build for KK
+6c5b8a8 libcorkscrew: only build for Lollipop and newer
+4cd6c92 camera: Init all members of camera_module_t to fix warnings.
+f439503 libtiutils: C++11 compat fix.
+97eba14 libstagefrighthw: Build with -Wall -Werror.
+5076f97 libI420colorconvert: Build with -Wall -Werror.
+2c59035 Make bltsville opt-in.
+072fa04 camera: Makefile overhaul.
+07c4577 Revert "camera: call camera CFLAGS should use CAMERAHAL_CFLAGS"
+06ce617 omap4: Set TARGET_FORCE_SCREENSHOT_CPU_PATH.
+d1f876f SGX-BIN: build: android: Don't override PLATFORM_VERSION if supplied
+
+   * packages/apps/AicpExtras/
+d1ea12e Revert "Wired headset: make ringtone audio focus customizable [2/3]"
+
+   * packages/apps/CellBroadcastReceiver/
+fa4d7a7 CellBroadcastReceiver: fix channel 50 not disabling
+
+   * packages/apps/Snap/
+673547e CaptureUI: fix crash on setOrientation
+a8285ad Snap: Fix effect and picture program overlay buttons
+65aa6fd Always apply frame size reduction to panorama pictures
+9e8d919 Never ignore finger swipes in gallery mode
+b9da2b0 Fix record time sometimes not seen
+
+   * packages/providers/MediaProvider/
+a8705c3 New Material icon
+
+   * packages/services/Telecomm/
+83e2a07 Revert "Wired headset: make ringtone audio focus customizable [3/3]"
+
+   * vendor/aicp/
+c831284 Merge "angler: update build fingerprint & description to 7.1.2 N2G47H" into n7.1
+b53ebb3 angler: update build fingerprint & description to 7.1.2 N2G47H
+
+====================
+     04-03-2017
+====================
+
+
+   * build/soong/
+10d454d Correct variable name LOCAL_COMPATIBILITY_SUITE am: 4df566d313
+4df566d Correct variable name LOCAL_COMPATIBILITY_SUITE
+
+   * frameworks/base/
+b620632 Fix Hotspot tile is shown on Guest user
+46f4b7e Disable Lockscreen Media Art [1/2]
+
+   * hardware/ti/omap4/
+eb70ea8 SGX-BIN: build: android: Add fallback PLATFORM_VERSION mechanism
+dbe532a board/init: Common PVR KM build target for reuse by devices
+492610c SGX-BIN: build/srvkm: Drop SGX core/version suffixes everywhere
+42c669c SGX-BIN: buildvars: Compile PVR KM with -fno-pic
+55bfee6 libpower: Avoid overwriting custom user frequencies.
+357aaac libpower: Initialize inited variable.
+5ae1155 libpower: Add optional support for API 0.3
+c55f2bb Add OMAP PowerHAL
+
+   * packages/apps/AicpExtras/
+a508678 Disable Lockscreen Media Art [2/2]
+5c999b4 AE: Missing spanish translations
+
+   * packages/services/Mms/
+de8277e Add Material icon & app label
+
+   * vendor/aicp/
+a37d924 find7 : get ready for AICP
+e4bec09 Kenzo: Fix a typo mistake
+
+====================
+     04-02-2017
+====================
+
+
+   * external/DUtils/
+51884f4 Merge "Smartbar media arrows: more code improvements [2/2]" into n7.1
+
+   * frameworks/base/
+64a48a2 Merge "Slim recent membar colors settings: obey themes [1/2]" into n7.1
+e86e373 Fix partial screenshot not working when dragging from left or top border
+d24d613 Smarbar Pixel Navbar Animation Duration Settings [1/3]
+5afa36f Merge "SmartBar: allow set custom buttons opacity when Pulse is active [3/3]" into n7.1
+b2bcd11 Merge changes from topic 'OMS' into n7.1
+
+   * packages/apps/CarrierConfig/
+65fe5ff Consider O2 and E-Plus as non-roaming
+
+   * packages/apps/CustomTiles/
+a25d845 WakelockService: Refactor
+e4a5f65 Caffeine: Stop service if not enabled
+
+   * packages/apps/DUI/
+df97552 SmartBar Media Arrows: add streaming music support
+25906b7 Make Smartbar Pixel Animation Durations Customizable [2/3]
+fa2a7f2 Smartbar media arrows: more code improvements [1/2]
+a66958c Smartbar media arrows: more code improvements
+e5635a1 Smartbar track arrows: code cleanup and don't show them on video playing
+28ce028 SmartBar: show arrows for next/previous track when media playing [1/2]
+9142afa SmartBar: allow set custom buttons opacity when Pulse is active [1/3]
+
+   * packages/apps/OmniStyle/
+076405b Automatic translation import
+
+   * packages/apps/OmniSwitch/
+addec10 Automatic translation import
+
+   * packages/apps/Settings/
+0109870 DUI: validate image size before attempting to set as icon [2/2]
+7c67c01 Settings: Make Smartbar Pixel Animation Durations Customizable [3/3]
+2475f27 SmartBar: show arrows for next/previous track when media playing [2/2]
+75a6074 Merge "SmartBar: allow set custom buttons opacity when Pulse is active [2/3]" into n7.1
+d25f0f4 Settings: Expose gesture settings switchbar
+
+   * packages/providers/CalendarProvider/
+94029d1 New Material icon
+
+   * packages/providers/TelephonyProvider/
+059380f TelephonyProvider: Update icon to Material
+
+   * packages/services/OmniJaws/
+be9eb48 Automatic translation import
+639c1b3 Automatic translation import
+
+   * packages/services/Telephony/
+1c2b4fa Revert "Add support to launch call barring"
+ef208f1 Revert "CallFeatureSettings: Only show call barring option if QTI package installed"
+
+   * packages/wallpapers/LivePicker/
+bf06fdf New Material icon
+
+   * vendor/aicp/
+cfdaa92 Merge "Remove all traces of CMTE policy" into n7.1
+5d37d4c kenzo: Update Mantainer
+
+====================
+     04-01-2017
+====================
+
+
+   * build/soong/
+67e0712 Merge "Add `sdk_version: "minimum"`." am: fe7f2f393b
+fe7f2f3 Merge "Add `sdk_version: "minimum"`."
+1ae73a6 Microfactory support for transitive link dependencies
+b3f4bc7 Merge "Add prebuilts/clang/host/linux-x86 to root.bp." am: 3c0e2cdc41
+3c0e2cd Merge "Add prebuilts/clang/host/linux-x86 to root.bp."
+2e5d7d4 Add `sdk_version: "minimum"`.
+d8db841 Generate file to map codenames to API levels. am: 30c9d6e771
+
+   * external/DUtils/
+0af3350 Smartbar media arrows: more code improvements [2/2]
+4b542d5 DUI: validate image size before attempting to set as icon [1/2]
+
+   * frameworks/base/
+83d3df1 Set advanced reboot menu to true as default
+6c18576 SmartBar: allow set custom buttons opacity when Pulse is active [3/3]
+7bcb96c Merge "Revert "Consider Q-TELECOM Greece as non-roaming"" into n7.1
+c29747f Revert "Consider Q-TELECOM Greece as non-roaming"
+88cac00 Themes: Expose Keyboard Shortcuts Dialog
+2b3bded Hold "volume up" during boot to disable all overlays
+
+   * hardware/qcom/audio-caf/msm8916/
+ab780a8 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.14' into cm-14.1-caf-8916
+
+   * hardware/qcom/audio-caf/msm8994/
+d062bdc Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.9' into cm-14.1-caf-8994
+
+   * packages/apps/CMParts/
+e4462d7 Fix reorientation of volume buttons on portrait tablets
+
+   * packages/apps/ExactCalculator/
+f85d53c Themes: Expose all elevations
+1aa2921 Themes: Expose hard coded background in java
+
+   * packages/apps/Settings/
+bbe2b87 SmartBar: allow set custom buttons opacity when Pulse is active [2/3]
+
+   * platform_manifest/
+8866b74  manifest: track exactcalculator locally
+
+   * vendor/aicp/
+e4ec365 Remove all traces of CMTE policy
+c0b47ae Merge "tilapia: Remove unused lines and change maintainer for AICP-N" into n7.1
+d870e76 a6000: Specify board model
+
+====================
+     03-31-2017
+====================
+
+
+   * build/soong/
+30c9d6e Generate file to map codenames to API levels.
+d6f6ad8 Merge "Refactor sanitized library on-disk layout - Soong." am: 94e1747051
+94e1747 Merge "Refactor sanitized library on-disk layout - Soong."
+121c009 Merge "Support prebuilt module types" am: 3cfa1f2078
+3cfa1f2 Merge "Support prebuilt module types"
+07ce4ac Add prebuilts/clang/host/linux-x86 to root.bp.
+b1953df Merge "Switch to clang-3859424." am: 971b9848c0
+971b984 Merge "Switch to clang-3859424."
+a2226b9 Support prebuilt module types
+1dd8839 Refactor sanitized library on-disk layout - Soong.
+1cfcf8b Fix include order am: c31994825a
+c319948 Fix include order
+b6336e9 Merge "[CMakeList generator] Add headers to source files" am: 4a825c7450
+4a825c7 Merge "[CMakeList generator] Add headers to source files"
+
+   * frameworks/base/
+707be4d Slim recent membar colors settings: obey themes [1/2]
+
+   * packages/apps/AicpExtras/
+51be688 Slim recent membar colors settings: obey themes [2/2]
+
+   * packages/apps/OmniStyle/
+1208364 OmniStyle: use vector logo
+
+   * packages/apps/ThemeInterfacer/
+ae4821c Fix failed authorization toast on restartService
+
+   * packages/services/OmniJaws/
+15b6c66 OmniJaws: use vector logo
+
+   * platform_manifest/
+43fe11b Revert "cm: Remove ahbottomnavigation library"
+
+   * vendor/aicp/
+457326b tilapia: Remove unused lines and change maintainer for AICP-N
+
