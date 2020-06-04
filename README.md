@@ -50,7 +50,6 @@ Architecture Version | ARM v7 32-bit
 Source ~ 
 * XDA Dev - https://forum.xda-developers.com/lg-k20-plus/development/rom-aicp-12-1-lg-k20-plus-t3738755
 * Square Dev Ops - http://squaredevops.blogspot.com/2018/03/aicp-1210-nougat-71-customrom-for-lava.html
-* TipsLab - https://www.tipslab.info/2018/04/mt6580-7.1.2-aicp-12.1-n-custom-rom-for-lava-iris-820.html
  
 Development Team, <br>
 Farhan Sadik <br>
